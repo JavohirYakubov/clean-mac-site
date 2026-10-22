@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clean Mac – Support</title><link rel="icon" href="../icon.png"><style>:root{--bg:#f7f9fc;--fg:#111827;--muted:#4b5563;--card:#fff;--line:#e5e7eb;--accent:#2563eb}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--fg:#f3f4f6;--muted:#9ca3af;--card:#171a21;--line:#262a33;--accent:#60a5fa}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:48px 16px 64px}a{color:var(--accent)}
+header{display:flex;align-items:center;gap:14px;margin-bottom:28px}header img{width:56px;height:56px}
+header a{color:var(--fg);text-decoration:none;font-weight:700;font-size:20px}
+h1{font-size:32px;line-height:1.2;margin:0 0 8px}h2{font-size:20px;margin:32px 0 8px}p,li{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;margin-top:16px}
+nav a{margin-right:18px}footer{margin-top:48px;color:var(--muted);font-size:14px}</style></head><body><main>
+<header><img src="../icon.png" alt=""><a href="../">Clean Mac</a></header>
+<h1>Clean Mac – Support</h1>
+<p>Clean Mac lives in your menu bar, shows how full your disk is, and helps you remove caches that are safe to delete. Here are answers to common questions.</p>
+<h2>Where is the app after I open it?</h2>
+<p>Clean Mac is a menu bar app, so it has no Dock icon. Look for its small droplet-shaped icon in the menu bar and click it. Right-click the icon for a short menu with Quick Clean, Deep Scan, pause monitoring, Settings and Quit.</p>
+<h2>Why does Clean Mac ask for access to my Home folder?</h2>
+<p>Apps keep their caches in the Library folder inside your Home folder. macOS requires you to confirm access once. Your Home folder is already selected in the panel; just click &quot;Allow Access&quot;. Clean Mac uses this access only to find caches and logs and to list files in Deep Scan. It never opens your documents.</p>
+<p>If you skipped this step, open the popover and click &quot;Allow access to your Home folder&quot;.</p>
+<h2>Do I need Full Disk Access?</h2>
+<p>No, it is optional. macOS protects some apps&#x27; storage in special containers. With Full Disk Access, Clean Mac can include those caches too; without it, everything else still works and those items are marked &quot;Needs Full Disk Access&quot;.</p>
+<p>To turn it on: System Settings → Privacy &amp; Security → Full Disk Access → turn on Clean Mac. You can turn it off the same way.</p>
+<h2>What happens to the files I clean? Can I get them back?</h2>
+<p>By default, everything goes to the Trash. (You can choose to delete items permanently instead; that cannot be undone.) Right after a cleanup to the Trash you can click Undo, and past cleanups are listed in History, where Undo is also available while the items are still in the Trash. You can always restore items from the Trash yourself with Finder.</p>
+<p>Files in the Trash still use disk space until you empty it. Clean Mac can offer to empty the Trash after cleaning; once the Trash is emptied, items can no longer be restored.</p>
+<h2>What does Quick Clean remove?</h2>
+<p>Only caches from a built-in catalog of known apps and developer tools. Each item shows its size and why it is safe to remove. Apps rebuild their caches automatically, although some may load a little slower the first time.</p>
+<p>If an app is running, Clean Mac asks you to quit it first. It never quits apps for you.</p>
+<h2>What does Deep Scan do?</h2>
+<p>It finds large files, old downloads, installers and archives, leftovers of removed apps, duplicates and developer junk. Known safe caches are preselected, but your own files are never preselected. You choose what to remove, can preview items with Quick Look or Reveal in Finder, and confirm before anything is moved to the Trash.</p>
+<h2>What does Clean Mac never touch?</h2>
+<ul><li>The contents of your documents, photos, music and other personal files (Deep Scan only lists files; you decide).</li><li>Passwords and keychains, app preferences and settings, browser bookmarks, history, cookies and logins.</li><li>Mail, Messages and iCloud Drive data.</li><li>Credential folders such as SSH or GPG keys.</li><li>Anything outside the paths it explicitly allows; every item is checked again right before it is moved.</li></ul>
+<h2>Does Clean Mac send any data?</h2>
+<p>No. Clean Mac collects no data, makes no network requests and needs no account. See the privacy policy for details.</p>
+<h2>Contact</h2>
+<p>Questions or problems? Please include your macOS version and a short description of what happened.</p>
+<p>Contact: open an issue at <a href="https://github.com/JavohirYakubov/clean-mac-site/issues">github.com/JavohirYakubov/clean-mac-site/issues</a>.</p>
+<footer><nav><a href="../">Home</a><a href="../privacy/">Privacy Policy</a><a href="../support/">Support</a></nav>
+<p>© 2026 Javohir Yakubov</p></footer></main></body></html>
